@@ -9,3 +9,7 @@ class Application < Sinatra::Base
     erb :greet
   end
 end
+
+#Using the Sinatra post method, we create a response for requests to POST '/greet'.
+#That response should be the HTML contained in the views/greet.erb template,
+#just like the HTML response of our first route was contained in views/index.erb. 
